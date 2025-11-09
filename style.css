@@ -1,0 +1,32 @@
+/* TAG selector: style all paragraphs for better readability */
+p {
+  line-height: 1.7;
+}
+
+/* CLASS selectors */
+.price-badge {
+  font-size: 1rem;
+  padding: 0.6rem 0.9rem;
+}
+
+/* Add a subtle hover to buttons */
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+/* ID selectors */
+#product-title {
+  letter-spacing: 0.2px;
+}
+
+/* Utility: keep images nicely contained if not using object-fit class */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Responsive tweaks */
+@media (max-width: 575.98px) {
+  .price-badge {
+    font-size: 0.95rem;
+  }
+}
